@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Norse-bold';
+  src: url('/font/Norse-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  ---font-family: 'Norse-bold';
+  ---color--text: #313131;
+  ---color--logo: #00bfa6;
+  ---color--bg: #fafafa;
+  ---border-bottom: #ee82ee;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(---color--bg);
+  color: var(---color--text);
+  display: grid;
+  grid-template-columns: calc(100% - 60%) auto;
+}
+
+/* IMAGE -- BACKGROUND -- MOBILE_SEARCH */
+.bg-image {
+  background-image: url('/images/undraw_Mobile_search.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* IMAGE -- OVERLAY -- THUMB PRINT */
+
+.overlay-logo {
+  width: 90%;
+  background: var(---color--bg);
+  color: #181818;
+  opacity: 0.6;
+  padding: 1rem 1rem;
+  position: relative;
+  top: 5vh;
+
+  box-shadow: 0.1rem 0.6rem 2rem 0rem rgba(0, 0, 0, 0.32);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.overlay-logo img {
+  height: 5em;
+}
+
+/* IMAGE -- OVER -- ODINS */
+.odins {
+  font-family: var(---font-family);
+  font-size: 4rem;
+}
+
+/* IMAGE -- SHOUT OUT -- LINKS */
+
+.shout-out {
+  color: var(---color--logo);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3rem;
+}
+
+.shout-out a:link,
+.shout-out a:visited {
+  color: var(---color--logo);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1em;
+  border-bottom: solid var(---color--logo);
+}
+
+.shout-out a:hover,
+.shout-out a:active {
+  color: var(---border-bottom);
+  text-decoration: none;
+}
+
+/* CONTENT SECTION */
+
+.content {
+  height: 100%;
+  text-transform: uppercase;
+  color: var(---color--text);
+  padding: 4rem 0 0 0;
+  display: grid;
+  row-gap: 2rem;
+}
+
+.about-us {
+  color: var(---color--text);
+  font-size: 2rem;
+}
+
+.service {
+  margin-right: 15rem;
+  font-weight: 600;
+}
+.advertise,
+.sign-up {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+/* FOOTER SECTION -- LOG_IN - BUTTON */
+
+.log-in {
+  font-size: 1.5em;
+}
+
+.log-in a:link,
+.log-in a:visited {
+  color: var(---color--logo);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1em;
+  border-bottom: solid var(---color--logo);
+}
+
+.log-in a:hover,
+.log-in a:active {
+  color: var(---border-bottom);
+  text-decoration: none;
+}
+
+.btn-submit {
+  font-size: 2rem;
+  border-radius: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem 3rem;
+  background-color: var(---color--logo);
+  box-shadow: 0.1rem 0.6rem 2rem 0rem rgba(0, 0, 0, 0.32);
+  border: solid var(---color--logo) 0;
+  text-decoration: none;
+  margin-bottom: 3vh;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-submit:hover,
+.btn-submit:active {
+  color: var(---color--bg);
+  background: var(---border-bottom);
+}

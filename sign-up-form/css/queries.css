@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1280px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .content {
+    padding: 0;
+    row-gap: 3vh;
+  }
+
+  .sign-up,
+  .advertise {
+    font-size: 1.5rem;
+  }
+
+  .bg-image {
+    background: none;
+    grid-column: auto;
+  }
+
+  .shout-out {
+    display: none;
+  }
+
+  .overlay-logo {
+    box-shadow: 0.1rem 0.6rem 2rem rgba(0, 0, 0, 0.32);
+    color: #181818;
+    opacity: 0.6;
+    width: 90%;
+  }
+
+  .overlay-logo img {
+    height: 5em;
+  }
+
+  .service {
+    font-weight: 600;
+    margin: 0 1rem 2rem;
+    text-align: center;
+  }
+
+  .sign-up,
+  .advertise {
+    font-weight: 600;
+    margin: 0 1rem;
+    text-align: center;
+  }
+
+  .about-us {
+    font-size: 1.6rem;
+  }
+
+  .form-container,
+  .form-details {
+    margin: 0 2rem;
+    text-align: center;
+  }
+
+  .log-in {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .sign-up,
+  .advertise {
+    font-size: 1.5rem;
+  }
+
+  .bg-image {
+    align-items: center;
+    background: none;
+    display: flex;
+  }
+
+  .shout-out {
+    display: none;
+  }
+
+  .overlay-logo {
+    box-shadow: none;
+    color: #181818;
+    opacity: 0.6;
+  }
+
+  .overlay-logo img {
+    height: 5em;
+  }
+
+  .service {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .sign-up,
+  .advertise {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .about-us {
+    font-size: 1.6rem;
+  }
+
+  .form-container,
+  .form-details {
+    border-radius: 1rem;
+    margin: 0 2rem;
+    text-align: center;
+    width: 90%;
+  }
+
+  .log-in > p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .overlay-logo {
+    box-shadow: none;
+    color: #181818;
+    opacity: 0.6;
+    top: auto;
+  }
+
+  /* FORM */
+
+  form .user-details .input-box {
+    margin-bottom: 1.5rem;
+    width: 90%;
+  }
+  form .input-box {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .user-details .input-box input:focus {
+    border-bottom-width: 0.2rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    height: auto;
+    outline: none;
+    width: 100%;
+  }
+
+  .user-details .input-box input::placeholder {
+    text-align: center;
+  }
+
+  .btn-submit {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .user-details .input-box input:focus {
+    border-bottom-width: 0.2rem;
+    border-radius: 0.5rem;
+    height: 4.5rem;
+    outline: none;
+    width: 100%;
+  }
+
+  .user-details .input-box input::placeholder {
+    text-align: center;
+    transition: opacity 0.5s 0.5s ease;
+    opacity: 0.3;
+  }
+}

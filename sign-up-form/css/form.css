@@ -1,0 +1,59 @@
+/* FORM -- DETAILS */
+:root {
+  ---color--text: #313131;
+  ---color--form-bg: #f6f6f6;
+  ---border-bottom: #ee82ee;
+}
+
+.form-details {
+  width: 90%;
+  background-color: var(---color--form-bg);
+  color: var(---color--text);
+  text-transform: uppercase;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.6rem 2rem 0rem rgba(0, 0, 0, 0.32);
+}
+
+form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 0 1.2rem 0;
+}
+form .user-details .input-box {
+  margin-bottom: 2.5rem;
+  width: calc(100% / 2 - 4rem);
+}
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.user-details .input-box input {
+  height: 4.5rem;
+  width: 100%;
+  outline: none;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  padding-left: 1.5rem;
+  border: 0.1rem solid #ccc;
+  border-bottom-width: 0.2rem;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box [name='first_name']:focus,
+.user-details .input-box [name='first_name']:invalid {
+  border-color: #0079ff;
+  box-shadow: 0.1rem 0.6rem 2rem 0rem rgba(0, 10, 0, 0.2);
+}
+
+.user-details .input-box [name='last_name']:focus,
+.user-details .input-box [name='last_name']:invalid {
+  border-color: #0079ff;
+}
+
+.user-details .input-box [type='password']:focus,
+.user-details .input-box [type='password']:invalid {
+  border-color: #fc2947;
+}
