@@ -50,7 +50,7 @@ To build a responsive form with modern practise
 
 - Got some experience in Form Design
 - Modern CSS
-- Markup Best pratices
+- Semantic HTML tags
 
 ### Continued development
 
