@@ -70,7 +70,7 @@ To build a responsive form with modern practise
 ## Acknowledgments
 
 - Inspiration by [The Odin Project](https://www.theodinproject.com/)
-- [Vercel Deployment](https://vercel.com/)
+- Live Deployment by [Vercel Deployment](https://vercel.com/)
 - My go to for deploying me website. Illustrative art was provided by [Undraw\_](https://undraw.co/)
 - Illustrative art and icons by [Icons8](https://icons8.com/)
 
