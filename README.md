@@ -18,11 +18,9 @@
 
 ### The challenge
 
-To build a responsive form with modern practise
-
-- View the optimal layout for the site depending on their device's screen size
-
-### Screenshot
+- To build a responsive form with modern practice
+  
+- Display the best layout depending on the size of their device
 
 ![Desktop-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/desktop%20-%20preview.png)
 ![Mobile-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/Mobile%20-%20preview.png)
@@ -35,7 +33,7 @@ To build a responsive form with modern practise
 
 - Google
 - Research 
-- Worked slow and methodical.
+- Worked slowly and methodically.
 
 ### Built with
 
@@ -48,7 +46,7 @@ To build a responsive form with modern practise
 
 ### What I learned
 
-- Semantic HTML tags
+- Semantic HTML5 markup
 - Got some experience in Form Design
 - Modern CSS
 
@@ -56,7 +54,8 @@ To build a responsive form with modern practise
 
 - Semantic HTML5 markup
 - Modern CSS Practises
-- CSS Grid / Flexbox and more...
+- CSS Grid
+- CSS Flexbox 
 - Mobile-first workflow
 - Modern Form Design
 
