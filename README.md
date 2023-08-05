@@ -18,7 +18,7 @@
 
 ### The challenge
 
-Users should be able to:
+To build a responsive form with modern practise
 
 - View the optimal layout for the site depending on their device's screen size
 
@@ -33,7 +33,9 @@ Users should be able to:
 
 ## My process
 
-I used the screenshots as a starting point and worked slow and methodical.
+- Google
+- Research 
+- Worked slow and methodical.
 
 ### Built with
 
