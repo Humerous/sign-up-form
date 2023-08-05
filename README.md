@@ -48,9 +48,9 @@ To build a responsive form with modern practise
 
 ### What I learned
 
+- Semantic HTML tags
 - Got some experience in Form Design
 - Modern CSS
-- Semantic HTML tags
 
 ### Continued development
 
