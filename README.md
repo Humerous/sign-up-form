@@ -24,8 +24,8 @@ To build a responsive form with modern practise
 
 ### Screenshot
 
-![Desktop-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/desktop%20-%20preview.png)
-![Mobile-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/Mobile%20-%20preview.png)
+![Desktop-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/desktop%20-%20preview.jpg)
+![Mobile-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/Mobile%20-%20preview.jpg)
 
 ### Links
 
