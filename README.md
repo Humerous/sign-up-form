@@ -105,7 +105,6 @@ SOFTWARE.
 ## Author
 
 - Website - [David Miller](https://my-portfolio-phi-seven.vercel.app/)
-- Frontend Mentor - [@humerous](https://www.frontendmentor.io/profile/Humerous)
 - Twitter - [@DavidMillerster](https://www.twitter.com/DavidMillerster)
 
 # Thanks
