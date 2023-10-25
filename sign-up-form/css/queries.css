@@ -1,3 +1,27 @@
+/* Common styles for all screen sizes */
+.form-details {
+  width: 90%;
+  background-color: var(--color--form-bg);
+  color: var(--color--text);
+  text-transform: uppercase;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.6rem 2rem 0rem rgba(0, 0, 0, 0.32);
+}
+
+form .user-details .input-box input {
+  height: 4.5rem;
+  width: 100%;
+  outline: none;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  padding-left: 1.5rem;
+  border: 0.1rem solid #ccc;
+  border-bottom-width: 0.2rem;
+  transition: all 0.3s ease;
+}
+
+/* Styles for screens up to 1280px */
 @media only screen and (max-width: 1280px) {
   .main {
     display: grid;
@@ -9,9 +33,11 @@
     row-gap: 3vh;
   }
 
-  .sign-up,
-  .advertise {
+  .sign-up, .advertise {
     font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 1rem;
+    text-align: center;
   }
 
   .bg-image {
@@ -35,15 +61,8 @@
   }
 
   .service {
-    font-weight: 600;
+    font-size: 1.2rem;
     margin: 0 1rem 2rem;
-    text-align: center;
-  }
-
-  .sign-up,
-  .advertise {
-    font-weight: 600;
-    margin: 0 1rem;
     text-align: center;
   }
 
@@ -51,8 +70,7 @@
     font-size: 1.6rem;
   }
 
-  .form-container,
-  .form-details {
+  .form-container, .form-details {
     margin: 0 2rem;
     text-align: center;
   }
@@ -62,6 +80,7 @@
   }
 }
 
+/* Styles for screens up to 768px */
 @media only screen and (max-width: 768px) {
   .content {
     align-items: center;
@@ -70,9 +89,9 @@
     padding: 0;
   }
 
-  .sign-up,
-  .advertise {
+  .sign-up, .advertise {
     font-size: 1.5rem;
+    font-weight: 600;
   }
 
   .bg-image {
@@ -101,8 +120,7 @@
     text-align: center;
   }
 
-  .sign-up,
-  .advertise {
+  .sign-up, .advertise {
     font-size: 1.3rem;
     font-weight: 500;
     margin: 1rem 0;
@@ -113,8 +131,7 @@
     font-size: 1.6rem;
   }
 
-  .form-container,
-  .form-details {
+  .form-container, .form-details {
     border-radius: 1rem;
     margin: 0 2rem;
     text-align: center;
@@ -134,39 +151,16 @@
     top: auto;
   }
 
-  /* FORM */
-
-  form .user-details .input-box {
+  /* Additional form styles for screens up to 768px */
+  .user-details .input-box {
     margin-bottom: 1.5rem;
     width: 90%;
   }
-  form .input-box {
-    display: block;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-  }
-  .user-details .input-box input:focus {
-    border-bottom-width: 0.2rem;
-    border-radius: 0.5rem;
-    font-size: 1.4rem;
-    height: auto;
-    outline: none;
-    width: 100%;
-  }
-
-  .user-details .input-box input::placeholder {
-    text-align: center;
-  }
-
-  .btn-submit {
-    font-size: 1.2rem;
-  }
 }
 
+/* Styles for screens up to 450px */
 @media only screen and (max-width: 450px) {
-  .user-details .input-box input:focus {
-    border-bottom-width: 0.2rem;
-    border-radius: 0.5rem;
+  .user-details .input-box input {
     height: 4.5rem;
     outline: none;
     width: 100%;
