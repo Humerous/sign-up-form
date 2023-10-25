@@ -7,17 +7,6 @@
 }
 
 :root {
-  ---font-family: 'Norse-bold';
-  ---color--text: #313131;
-  ---color--logo: #00bfa6;@font-face {
-  font-family: 'Norse-bold';
-  src: url('/font/Norse-Bold.ttf');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-:root {
   --font-family: 'Norse-bold';
   --color--text: #313131;
   --color--logo: #00bfa6;
@@ -42,6 +31,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* The rest of your CSS remains the same */
+
 
 /* The rest of your CSS remains the same */
 
