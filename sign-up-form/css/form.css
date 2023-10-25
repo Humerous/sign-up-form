@@ -1,14 +1,14 @@
 /* FORM -- DETAILS */
 :root {
-  ---color--text: #313131;
-  ---color--form-bg: #f6f6f6;
-  ---border-bottom: #ee82ee;
+  --color--text: #313131;
+  --color--form-bg: #f6f6f6;
+  --border-bottom: #ee82ee;
 }
 
 .form-details {
   width: 90%;
-  background-color: var(---color--form-bg);
-  color: var(---color--text);
+  background-color: var(--color--form-bg);
+  color: var(--color--text);
   text-transform: uppercase;
   padding: 4rem 2rem;
   border-radius: 1rem;
