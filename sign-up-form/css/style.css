@@ -9,7 +9,42 @@
 :root {
   ---font-family: 'Norse-bold';
   ---color--text: #313131;
-  ---color--logo: #00bfa6;
+  ---color--logo: #00bfa6;@font-face {
+  font-family: 'Norse-bold';
+  src: url('/font/Norse-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family: 'Norse-bold';
+  --color--text: #313131;
+  --color--logo: #00bfa6;
+  --color--bg: #fafafa;
+  --border-bottom: #ee82ee;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The rest of your CSS remains the same */
+
   ---color--bg: #fafafa;
   ---border-bottom: #ee82ee;
 }
