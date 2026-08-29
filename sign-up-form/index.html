@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="/css/form.css">
-    <link rel="stylesheet" href="/css/queries.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/queries.css">
     <title>Working in a Box - User Registration</title>
 </head>
 <body>
     <main class="main">
         <section class="bg-image">
             <div class="overlay-logo">
-                <img src="/images/icons8-thumbprint-96.png" alt="Fingerprint Icon">
+                <img src="images/icons8-thumbprint-96.png" alt="Fingerprint Icon">
                 <p class="odins">ODINS</p>
             </div>
             <p class="shout-out">
@@ -33,7 +33,7 @@
             </div>
 
             <div class="form-container">
-                <form action="#" class="form-details">
+                <form action="#" class="form-details" id="sign-up-form">
                     <h1 class="form-advertise">Let's Get Started!</h1>
                     <div class="user-details">
                         <div class="input-box">
@@ -65,7 +65,7 @@
             </div>
             
             <footer class="log-in">
-                <button class="btn-submit">Create Account</button>
+                <button class="btn-submit" type="submit" form="sign-up-form">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a> now.</p>
             </footer>
         </section>
