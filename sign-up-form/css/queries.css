@@ -152,9 +152,9 @@ form .user-details .input-box input {
   }
 
   /* Additional form styles for screens up to 768px */
-  .user-details .input-box {
+  form .user-details .input-box {
     margin-bottom: 1.5rem;
-    width: 90%;
+    width: 100%;
   }
 }
 
