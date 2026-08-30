@@ -1,83 +1,54 @@
-# Sign-up-Form
+# Sign-Up Form
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+A responsive sign-up form built as an early front-end development practice project.
 
 ## Overview
 
-### The challenge
+The goal of this project was to create a clear, responsive form experience using semantic HTML and modern CSS techniques.
 
-- To build a responsive form with modern practice
-  
-- Display the best layout depending on the size of their device
+## Live Demo
 
-![Desktop-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/desktop%20-%20preview.png)
-![Mobile-View](https://github.com/Humerous/sign-up-form/blob/main/sign-up-form/Mobile%20-%20preview.png)
+[Open Live Site](https://sign-up-form-eight-phi.vercel.app/)
 
-### Links
+## Screenshots
 
-- Live Site URL: (https://sign-up-form-eight-phi.vercel.app/)
+![Desktop view](sign-up-form/desktop%20-%20preview.png)
 
-## My process
+![Mobile view](sign-up-form/Mobile%20-%20preview.png)
 
-- Google
-- Research 
-- Worked slowly and methodically.
+## Built With
 
-### Built with
-
-- Semantic HTML5 markup
+- Semantic HTML5
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- Responsive Design
+- Mobile-first responsive design
 
-### What I learned
+## What I Learned
 
-- Semantic HTML5 markup
-- Got some experience in Form Design
-- Modern CSS
+This project provided practical experience with form layout, responsive design, spacing, typography, and structuring a clear sign-up interface across different screen sizes.
 
-### Continued development
+## Project Context
 
-- Semantic HTML5 markup
-- Modern CSS Practises
-- CSS Grid
-- CSS Flexbox 
-- Mobile-first workflow
-- Modern Form Design
+This is an earlier learning project and is retained as part of my front-end development history.
 
-### Useful resources
+## Resources and Acknowledgments
 
-- [Google](https://www.google.com) - This helped me for research reason.
-- [Mmdn](https://developer.mozilla.org/en-US/) - Documenting web technologies, including CSS, HTML, and JavaScript.
-- [CSS-tricks](https://css-tricks.com/) - Go too CSS documentation and development
-- [Stack-overflow](https://stackoverflow.com/) - Empowering the world to develop technology through collective knowledge.
+- [The Odin Project](https://www.theodinproject.com/) — project inspiration
+- [MDN Web Docs](https://developer.mozilla.org/) — web-platform reference
+- [Vercel](https://vercel.com/) — deployment
+- [unDraw](https://undraw.co/) — illustration resources
+- [Icons8](https://icons8.com/) — illustration and icon resources
 
-## Acknowledgments
+## Author
 
-- Inspiration by [The Odin Project](https://www.theodinproject.com/)
-- Live Deployment by [Vercel](https://vercel.com/)
-- My go to for deploying my website. Illustrative art was provided by [Undraw\_](https://undraw.co/)
-- Illustrative art and icons by [Icons8](https://icons8.com/)
+- X: [@DavidMillerster](https://www.twitter.com/DavidMillerster)
 
 ## License
 
 MIT License
 
-Copyright (c) [2023][david k miller]
+Copyright (c) 2023 David K Miller
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -96,16 +67,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-[Back To The Top](#read-me-template)
-
----
-
-## Author
-
-- Website - [David Miller](https://my-portfolio-phi-seven.vercel.app/)
-- Twitter - [@DavidMillerster](https://www.twitter.com/DavidMillerster)
-
-# Thanks
-
-Thanks to my family and friends for always supporting me and motivating me to keep pushing forward.
